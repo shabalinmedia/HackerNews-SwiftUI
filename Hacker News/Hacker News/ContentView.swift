@@ -12,7 +12,6 @@ struct ContentView: View {
         NavigationView {
             List(posts) { post in
                 Text(post.title)
-                
             }
             .navigationTitle("Hacker News")
         }
@@ -26,10 +25,7 @@ struct ContentView_Previews: PreviewProvider {
 }
 
 
-struct Post: Identifiable {
-    let id: String
-    let title: String
-}
+
 
 let posts = [
     Post(id: "1", title: "Hello"),
