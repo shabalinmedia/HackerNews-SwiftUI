@@ -1,4 +1,4 @@
-# HackerNews-SwiftUI
+# Hacker News
 
 **About**
 
